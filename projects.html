@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Lakshita</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Lakshita<span>.</span></a>
+      <nav class="desktop-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="education.html" class="nav-link">Education</a>
+        <a href="certification.html" class="nav-link">Certification</a>
+      </nav>
+      <button class="mobile-btn" id="mobileBtn">
+        <i data-feather="menu"></i>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="certification.html">Certification</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        
+        <div class="grid-3">
+          
+          <div class="glass-card project-card">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-light);">E-Commerce Platform</h3>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem; flex: 1;">A full-stack e-commerce solution with React, Node.js, and MongoDB. Features secure checkout, user authentication, and an admin dashboard.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-muted);"><i data-feather="github" style="width:18px;"></i> Code</a>
+              <a href="#" style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-muted);"><i data-feather="external-link" style="width:18px;"></i> Live Demo</a>
+            </div>
+          </div>
+
+          <div class="glass-card project-card">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-light);">Task Management App</h3>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem; flex: 1;">A beautiful drag-and-drop Kanban board built with React and Framer Motion for smooth animations and an intuitive user experience.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Framer Motion</span>
+              <span class="project-tag">Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="#" style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-muted);"><i data-feather="github" style="width:18px;"></i> Code</a>
+              <a href="#" style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-muted);"><i data-feather="external-link" style="width:18px;"></i> Live Demo</a>
+            </div>
+          </div>
+
+          <div class="glass-card project-card">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-light);">AI Chat Interface</h3>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem; flex: 1;">A modern chat interface connecting to various LLM APIs, featuring a sleek dark mode design and responsive layout.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">OpenAI API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-muted);"><i data-feather="github" style="width:18px;"></i> Code</a>
+              <a href="#" style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-muted);"><i data-feather="external-link" style="width:18px;"></i> Live Demo</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <h3 class="footer-title">Let's Connect</h3>
+        <p class="footer-text">Feel free to reach out for collaborations or just a friendly hello!</p>
+        <div class="socials">
+          <a href="mailto:contact@example.com"><i data-feather="mail"></i></a>
+          <a href="#"><i data-feather="github"></i></a>
+          <a href="#"><i data-feather="linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lakshita. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

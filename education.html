@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education | Lakshita</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Lakshita<span>.</span></a>
+      <nav class="desktop-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="education.html" class="nav-link active">Education</a>
+        <a href="certification.html" class="nav-link">Certification</a>
+      </nav>
+      <button class="mobile-btn" id="mobileBtn">
+        <i data-feather="menu"></i>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="certification.html">Certification</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="timeline">
+          
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i data-feather="book-open" style="width: 20px;"></i>
+            </div>
+            <div class="glass-card" style="opacity: 1; transform: none; margin-bottom: 0;">
+              <h3 style="font-size: 1.5rem; color: var(--text-light); margin-bottom: 0.5rem;">Master of Computer Science</h3>
+              <h4 style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 1rem; font-weight: 500;">Tech University</h4>
+              <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; background: rgba(255,255,255,0.05); padding: 0.3rem 0.8rem; border-radius: 20px; width: fit-content;">
+                <i data-feather="calendar" style="width: 16px;"></i> 2023 - 2025
+              </div>
+              <p style="color: var(--text-muted); line-height: 1.6;">Specialized in Artificial Intelligence and Advanced Web Technologies. Graduated with Honors.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i data-feather="book-open" style="width: 20px;"></i>
+            </div>
+            <div class="glass-card" style="opacity: 1; transform: none; margin-bottom: 0;">
+              <h3 style="font-size: 1.5rem; color: var(--text-light); margin-bottom: 0.5rem;">Bachelor of Technology in IT</h3>
+              <h4 style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 1rem; font-weight: 500;">State Engineering College</h4>
+              <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; background: rgba(255,255,255,0.05); padding: 0.3rem 0.8rem; border-radius: 20px; width: fit-content;">
+                <i data-feather="calendar" style="width: 16px;"></i> 2019 - 2023
+              </div>
+              <p style="color: var(--text-muted); line-height: 1.6;">Core focus on software engineering principles, data structures, and algorithms. Led the coding club.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i data-feather="book-open" style="width: 20px;"></i>
+            </div>
+            <div class="glass-card" style="opacity: 1; transform: none; margin-bottom: 0;">
+              <h3 style="font-size: 1.5rem; color: var(--text-light); margin-bottom: 0.5rem;">High School</h3>
+              <h4 style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 1rem; font-weight: 500;">Modern Public School</h4>
+              <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; background: rgba(255,255,255,0.05); padding: 0.3rem 0.8rem; border-radius: 20px; width: fit-content;">
+                <i data-feather="calendar" style="width: 16px;"></i> 2017 - 2019
+              </div>
+              <p style="color: var(--text-muted); line-height: 1.6;">Completed with a focus on Science and Mathematics.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <h3 class="footer-title">Let's Connect</h3>
+        <p class="footer-text">Feel free to reach out for collaborations or just a friendly hello!</p>
+        <div class="socials">
+          <a href="mailto:contact@example.com"><i data-feather="mail"></i></a>
+          <a href="#"><i data-feather="github"></i></a>
+          <a href="#"><i data-feather="linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lakshita. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
